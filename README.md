@@ -73,6 +73,21 @@ zlt-mcp list --tool show_stock_panel --json
 
 macOS 将 `npx.cmd` 改为 `npx`。配置位置和生效方式以所用客户端说明为准。
 
+### 安装 FinORM 财经数据 MCP
+
+FinORM 通过 Python 客户端安装，供 AI 助手查询财经数据库。需要 **Python 3.10+**，并向官方客服 [kefu@zltquant.com](mailto:kefu@zltquant.com) 申请 endpoint、token 和数据权限。
+
+```sh
+python -m pip install pandas numpy pyarrow mcp --index-url https://pypi.tuna.tsinghua.edu.cn/simple
+python -m pip install ZltFinOrmClient --index-url https://pypip.zltquant.com/
+zltfinorm install-mcp --endpoint http://finorm.zltquant.com:7761 --token fk_YOUR_TOKEN
+```
+
+将 endpoint 和 token 替换为客服提供的值，注册后重启 AI 助手。Codex 用户还可运行 `zltfinorm install-skill --agent codex` 安装配套 Skill。真实 token 仅保存在本机。
+
+[完整安装、Codex 配置与连接验证](docs/README.md#安装-finorm-mcp) · [官方安装手册](https://docs.zltquant.com/finorm/installation.html)
+
+
 ## 使用示例
 
 ### 查询 A 股行情
