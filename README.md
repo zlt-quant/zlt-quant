@@ -167,6 +167,12 @@ print(prices.tail())
 
 [查看完整手册目录与 MCP 数据说明](docs/README.md) · [浏览官方知识库](https://docs.zltquant.com/)。SDK、终端、插件与 MCP 分别以对应版本文档为准。
 
+### 财经数据库目录（FinORM）
+
+官方公开目录包含 **15 个数据库、476 张表、8,376 个业务字段**，覆盖 A 股、公募基金、债券、期货、指数、行业与商品、宏观统计、海关进出口、资讯研报等。它是按表和字段查询的财经数据库目录；实际可查询范围取决于账号授权。
+
+[查看数据库分类与字段入口](docs/README.md#finorm-财经数据目录) · [官方可搜索表目录](https://docs.zltquant.com/finorm/table-catalog.html) · [FinORM 快速开始](https://docs.zltquant.com/finorm/getting-started.html)
+
 ## 版本与更新
 
 - [CLI / MCP 版本记录](https://www.npmjs.com/package/@zltquant/zlt-mcp?activeTab=versions)
