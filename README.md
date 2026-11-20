@@ -2,7 +2,7 @@
 
 面向 AI Agent 与 Python 开发者的量化投研工具：行情查询、数据准备、策略开发、因子研究与本地回测。
 
-[获取 Skill](https://skillhub.cn/skills/org-gir79457/zlt-quant) · [npm 工具包](https://www.npmjs.com/package/@zltquant/zlt-mcp) · [使用文档](https://docs.zltquant.com/) · [数据与手册](#数据与手册) · [交流与支持](#交流与支持)
+[获取 Skill](https://skillhub.cn/skills/org-gir79457/zlt-quant) · [npm 工具包](https://www.npmjs.com/package/@zltquant/zlt-mcp) · [使用文档](https://docs.zltquant.com/) · [全部手册](docs/README.md) · [数据与手册](#数据与手册) · [交流与支持](#交流与支持)
 
 通过 Skill、CLI 或 MCP 接入智量通，也可以在配套研究环境中编写 Python 策略。本仓库提供产品介绍、安装指引和文档导航。
 
@@ -161,7 +161,7 @@ print(prices.tail())
 | 使用 VS Code 插件 | [zlt-claw 使用手册](https://docs.zltquant.com/vscode/) |
 | 使用投研终端 | [终端简介](https://docs.zltquant.com/instructions/terminal-intro.html) · [投研模块](https://docs.zltquant.com/instructions/research-module.html) |
 
-[浏览官方知识库](https://docs.zltquant.com/)。SDK、终端、插件与 MCP 分别以对应版本文档为准。
+[查看完整手册目录与 MCP 数据说明](docs/README.md) · [浏览官方知识库](https://docs.zltquant.com/)。SDK、终端、插件与 MCP 分别以对应版本文档为准。
 
 ## 版本与更新
 
