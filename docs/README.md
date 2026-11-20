@@ -2,7 +2,7 @@
 
 [返回仓库首页](../README.md) · [官方知识库](https://docs.zltquant.com/) · [MCP / CLI 安装说明](https://www.npmjs.com/package/@zltquant/zlt-mcp?activeTab=readme)
 
-本页整理 ZltQuant MCP 数据能力和官方手册入口。点击下方手册标题可直接阅读官网正文、示例和配图。
+本页整理 ZltQuant MCP 数据能力、FinORM 财经数据库目录和官方手册入口。点击下方手册标题可直接阅读官网正文、示例和配图。
 
 ## ZltQuant MCP 数据能力
 
@@ -47,6 +47,10 @@ zlt-mcp list --tool mcp-get-cloud-data-list --json
 
 下载前明确市场、类型、日期、体量和授权。具体安装、登录与调用方式见 [npm 使用说明](https://www.npmjs.com/package/@zltquant/zlt-mcp?activeTab=readme)。
 
+## 策略模板源码
+
+[查看仓库内的 14 份官方公开策略模板与示例](../strategies/README.md)。源码来自官方文档，已标注来源；本次未运行回测。
+
 ## 选择阅读入口
 
 - 第一次开发策略：[SDK 快速开始](https://docs.zltquant.com/api/zltquant/api/functions/getting-started.html)
@@ -54,6 +58,32 @@ zlt-mcp list --tool mcp-get-cloud-data-list --json
 - 使用现成策略：[策略示例](https://docs.zltquant.com/api/zltquant/api/strategy-examples.html)
 - 在 VS Code 中研发：[zlt-claw 插件手册](https://docs.zltquant.com/vscode/)
 - 安装投研终端：[终端简介](https://docs.zltquant.com/instructions/terminal-intro.html)
+
+## FinORM 财经数据目录
+
+FinORM 提供按分类、表与字段发现和查询的财经数据库能力。以下目录根据[官方数据范围](https://docs.zltquant.com/finorm/data-scope.html)整理，核对日期为 2026-11-20，共 **15 个数据库、476 张表、8,376 个业务字段**。它与上文按市场、频率组织的 ZltQuant 云端下载目录各有用途，目录规模不作为下载覆盖的证明。
+
+| 数据库与字段明细 | 内容 | 表数 | 字段数 |
+| --- | --- | --- | --- |
+| [A股 cneqa](https://docs.zltquant.com/finorm/data-scope/cneqa.html) | 沪深京 A/B 股的行情、财报、股东、股本、事件、板块与治理数据，是最完整的一个库。 | 163 | 4462 |
+| [行业与商品 cnsect](https://docs.zltquant.com/finorm/data-scope/cnsect.html) | 申万等行业分类，以及能源、材料、农产品、房地产等各细分市场的价格指数与产销数据。 | 142 | 841 |
+| [公募基金 cnmf](https://docs.zltquant.com/finorm/data-scope/cnmf.html) | 基金基本信息、净值、持仓、经理、评级，以及 ETF、LOF、REITs 专项数据。 | 54 | 1042 |
+| [宏观统计 cnstat](https://docs.zltquant.com/finorm/data-scope/cnstat.html) | 国民经济核算、工业增加值、价格指数、国内贸易、固定资产投资等国家统计口径数据。 | 26 | 351 |
+| [期货 cnfut](https://docs.zltquant.com/finorm/data-scope/cnfut.html) | 期货合约与品种参数、交割与仓单、日行情、资金流向与持仓排名。 | 19 | 491 |
+| [债券 cnbnd](https://docs.zltquant.com/finorm/data-scope/cnbnd.html) | 可转债条款与转股、债券估值、信用事件、银行间回购拆借行情。 | 15 | 529 |
+| [海关进出口 cngac](https://docs.zltquant.com/finorm/data-scope/cngac.html) | 海关总署口径的进出口总值、商品构成、重点商品量值与分地区分企业性质统计。 | 15 | 112 |
+| [资讯与研报 intel](https://docs.zltquant.com/finorm/data-scope/intel.html) | 财经日历、行业新闻、交易所互动易、机构研报评级与资讯标签体系。 | 12 | 210 |
+| [指数 gbidx](https://docs.zltquant.com/finorm/data-scope/gbidx.html) | 指数基本信息、分类、成分股与权重，覆盖中证、国证及衍生指数。 | 9 | 116 |
+| [主数据 main](https://docs.zltquant.com/finorm/data-scope/main.html) | 证券信息主表、行情代码映射、个人信息与自定义板块配置，常用于跨库联表。 | 8 | 92 |
+| [美国经济分析局 usbea](https://docs.zltquant.com/finorm/data-scope/usbea.html) | 美国 GDP 行业分解与国际贸易、跨国服务投资数据。 | 4 | 38 |
+| [董监高与股东 cneqn](https://docs.zltquant.com/finorm/data-scope/cneqn.html) | 董监高人员基本情况与持股，以及十大股东情况。 | 3 | 36 |
+| [美国劳工统计局 usbls](https://docs.zltquant.com/finorm/data-scope/usbls.html) | 美国 CPI、PPI 与进出口价格指数。 | 3 | 35 |
+| [港股 hkeq](https://docs.zltquant.com/finorm/data-scope/hkeq.html) | 港股 ETF 庄家信息与单位净值变动。 | 2 | 12 |
+| [美联储 usfed](https://docs.zltquant.com/finorm/data-scope/usfed.html) | 美国货币供应量。 | 1 | 9 |
+
+[按表名或表编码搜索完整目录](https://docs.zltquant.com/finorm/table-catalog.html) · [快速开始](https://docs.zltquant.com/finorm/getting-started.html) · [安装说明](https://docs.zltquant.com/finorm/installation.html) · [查询示例](https://docs.zltquant.com/finorm/examples.html) · [接口参考](https://docs.zltquant.com/finorm/api-reference.html)
+
+以上为平台公开目录，实际可查表由账号授权决定；可读区间、字段和时间轴以当前服务规范为准。点击库名可查看全部表与字段。本仓库不提供财经数据记录下载，也不授予数据再分发权限。
 
 ## ZltQuant SDK：开发与数据接口
 
@@ -119,4 +149,4 @@ zlt-mcp list --tool mcp-get-cloud-data-list --json
 
 ## 文档与数据口径
 
-本页链接指向官方知识库；功能及接口以当前安装版本和官网说明为准。上面的数据能力来自 ZltQuant MCP 实查，不使用 FinORM 的数据库目录作为数据范围。
+本页链接指向官方知识库；功能及接口以当前安装版本和官网说明为准。ZltQuant 下载数据说明来自 MCP 实查；FinORM 数据库目录来自官网公开数据范围，账号授权与实时可用性另行核对。
