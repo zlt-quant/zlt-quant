@@ -2,7 +2,7 @@
 
 面向 AI Agent 与 Python 开发者的量化投研工具：行情查询、数据准备、策略开发、因子研究与本地回测。
 
-[获取 Skill](https://skillhub.cn/skills/org-gir79457/zlt-quant) · [npm 工具包](https://www.npmjs.com/package/@zltquant/zlt-mcp) · [使用文档](https://docs.zltquant.com/) · [全部手册](docs/README.md) · [数据与手册](#数据与手册) · [交流与支持](#交流与支持)
+[获取 Skill](https://skillhub.cn/skills/org-gir79457/zlt-quant) · [npm 工具包](https://www.npmjs.com/package/@zltquant/zlt-mcp) · [使用文档](https://docs.zltquant.com/) · [全部手册](docs/README.md) · [策略模板](strategies/README.md) · [数据与手册](#数据与手册) · [交流与支持](#交流与支持)
 
 通过 Skill、CLI 或 MCP 接入智量通，也可以在配套研究环境中编写 Python 策略。本仓库提供产品介绍、安装指引和文档导航。
 
@@ -137,6 +137,10 @@ print(prices.tail())
 ```
 
 `df=True` 返回 DataFrame；未指定时默认返回 NumPy 结构化数组。完整频率、复权和时间参数见 [行情数据接口](https://docs.zltquant.com/api/zltquant/api/functions/market-data.html)。
+
+## 策略模板
+
+[查看 14 份官方公开策略模板与 Python 示例](strategies/README.md)，包括基础框架、均线择时、布林线、海龟、多因子、小市值、配对交易、期货与 Tick 示例。源码已标明官方来源，本次未运行回测。
 
 ## 数据与手册
 
