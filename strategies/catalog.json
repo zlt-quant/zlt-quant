@@ -1,0 +1,200 @@
+{
+  "checked_date": "2026-11-20",
+  "source": "智量通官方知识库公开代码示例",
+  "mcp_package": "@zltquant/zlt-mcp@0.11.1",
+  "note": "源码来自官网示例，不宣称与平台当前模板逐字一致。未运行回测或交易。",
+  "examples": [
+    {
+      "name": "均线择时",
+      "file": "ma-timing.py",
+      "description": "EMA / MACD 择时示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/strategy-examples.html#均线择时",
+      "body_sha256": "c396f01fb2f204fb7412469b771eacfb0acb9a497f34b04d4686ecb5e40a4e04",
+      "lines": 41
+    },
+    {
+      "name": "趋势跟踪",
+      "file": "trend-following.py",
+      "description": "按官网“趋势跟踪”名称保留的示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/strategy-examples.html#趋势跟踪",
+      "body_sha256": "9071b7904f9c59c0dd9eb15920de45dff7afe612dd0e9ee8fea76d1cb99ff5cf",
+      "lines": 111
+    },
+    {
+      "name": "海龟交易法则",
+      "file": "turtle-trading.py",
+      "description": "突破、加仓与退出逻辑示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/strategy-examples.html#海龟交易法则",
+      "body_sha256": "fd75d770f8d560baa5b1cd735da0b2ab5999c0ad2e1e1e734512470d610c0bbb",
+      "lines": 115
+    },
+    {
+      "name": "布林线均值回归",
+      "file": "bollinger-mean-reversion.py",
+      "description": "布林带触发的交易示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/strategy-examples.html#布林线均值回归",
+      "body_sha256": "bd141098e710651058e9740260a5ffd1d29cf702f2e722c3310edd4681d48ac6",
+      "lines": 55
+    },
+    {
+      "name": "均值回复策略",
+      "file": "mean-reversion.py",
+      "description": "均值回复示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/strategy-examples.html#均值回复策略",
+      "body_sha256": "196a67138154883afe16734ebc9aff9b54f78344088ee527073dce36f145b632",
+      "lines": 84
+    },
+    {
+      "name": "多因子选股",
+      "file": "multi-factor-selection.py",
+      "description": "多因子选股示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/strategy-examples.html#多因子选股",
+      "body_sha256": "31c2b134558b184b4f35a788654d30b2293b8d72fbd8df52d6023a008d1d0323",
+      "lines": 102
+    },
+    {
+      "name": "小市值策略",
+      "file": "small-cap.py",
+      "description": "小市值选股示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/strategy-examples.html#小市值策略",
+      "body_sha256": "796bd71dbb6a5e00435997f2ba34b34b71b5fcfe849762411a2fad6682150ec7",
+      "lines": 117
+    },
+    {
+      "name": "股票配对交易",
+      "file": "pairs-trading.py",
+      "description": "股票配对交易示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/strategy-examples.html#股票配对交易",
+      "body_sha256": "e5441f731308c13eaf6efd534cf150c041a3458bb7f15b47556e88fc7cfe23d7",
+      "lines": 182
+    },
+    {
+      "name": "基础模版1",
+      "file": "basic-template.py",
+      "description": "策略初始化、调度与交易的基础框架",
+      "source": "https://docs.zltquant.com/api/zltquant/api/functions/getting-started.html#基础模版1",
+      "body_sha256": "1c31c7a9638f3f5296632b9f17c0e8b864ff44c132dbb993f06cee710547ec84",
+      "lines": 47
+    },
+    {
+      "name": "基础模版2",
+      "file": "scheduled-template.py",
+      "description": "按固定时间调度的基础框架",
+      "source": "https://docs.zltquant.com/api/zltquant/api/functions/getting-started.html#基础模版2",
+      "body_sha256": "d1172732d96b955550d7db4025f80b7f3001a0ae67f9aba03f9d27e165915dd8",
+      "lines": 14
+    },
+    {
+      "name": "多账号策略模版",
+      "file": "multi-account-template.py",
+      "description": "通过 pindex 区分账号的策略框架",
+      "source": "https://docs.zltquant.com/api/zltquant/api/functions/getting-started.html#多账号策略模版",
+      "body_sha256": "d318ef0b6fe848aed832829c7d2aa069e48a879e2bf35cc73589a9b74524b88f",
+      "lines": 49
+    },
+    {
+      "name": "期货策略模版",
+      "file": "futures-template.py",
+      "description": "期货交易的基础框架",
+      "source": "https://docs.zltquant.com/api/zltquant/api/functions/getting-started.html#期货策略模版",
+      "body_sha256": "07f54ac8f6eba4b8acbbc02620a3cd2840e25bc7027ab818a21df9d7da1a6653",
+      "lines": 30
+    },
+    {
+      "name": "Tick回测策略模版",
+      "file": "tick-backtest-template.py",
+      "description": "Tick 回调与历史 Tick 查询示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/functions/getting-started.html#tick回测策略模版",
+      "body_sha256": "2e1ca45c03bf6fcb2e5f3bb8a1dc297f7f5ea383c82595133cebc7635420d172",
+      "lines": 23
+    },
+    {
+      "name": "Tick仿真策略模版",
+      "file": "tick-simulation-template.py",
+      "description": "Tick 订阅与仿真回调示例",
+      "source": "https://docs.zltquant.com/api/zltquant/api/functions/getting-started.html#tick仿真策略模版",
+      "body_sha256": "67af37d3a386092e4d2a1ee6e40555728595dd1a8e12be66d2f3480870dd4a5e",
+      "lines": 16
+    }
+  ],
+  "platform_templates": [
+    {
+      "label": "交易模版",
+      "val": "A1",
+      "tag": "模板",
+      "filename": "main.py"
+    },
+    {
+      "label": "均线择时",
+      "val": "A2",
+      "tag": "择时,均线",
+      "filename": "main.py"
+    },
+    {
+      "label": "布林线均值回归",
+      "val": "A3",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "多因子选股",
+      "val": "A4",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "趋势跟踪",
+      "val": "A5",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "均值回复策略",
+      "val": "A6",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "海龟交易法则",
+      "val": "A7",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "小市值策略",
+      "val": "A8",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "股票配对交易",
+      "val": "A9",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "tick策略回测",
+      "val": "A10",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "tick仿真策略",
+      "val": "A11",
+      "tag": "择时",
+      "filename": "main.py"
+    },
+    {
+      "label": "行业轮动（月频）",
+      "val": "A12",
+      "tag": "行业轮动,月频",
+      "filename": "main.py"
+    },
+    {
+      "label": "日内回转（T+0）",
+      "val": "A13",
+      "tag": "日内,回转",
+      "filename": "main.py"
+    }
+  ]
+}
